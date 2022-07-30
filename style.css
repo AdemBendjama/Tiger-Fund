@@ -5,24 +5,38 @@ body {
     margin: 0;
     font-family: roboto, sans-serif;
 }
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 /*Container*/
 .container {}
 
+/*SECTION-1*/
+.section-1 {
+    height: 600px;
+    background-color: #1f2937;
+    font-size: 18px;
+}
+
 /*HEADER-BAR*/
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
-    margin-left: 170px;
-    margin-right: 170px;
+    padding: 16px 0 16px 0;
 }
 
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 1000;
 }
 
 .header-links {
@@ -35,19 +49,102 @@ a {
     color: #E5E7EB;
 }
 
-.top-section {
-    height: 500px;
-    background-color: #1f2937;
-    font-size: 18px;
-
-}
 /*PRESENTATION 1*/
-.presentation-1{
+.presentation-1 {
     display: flex;
     align-items: center;
-    justify-content:  space-between;
-    height: 350px;
-    margin-left: 170px;
-    margin-right: 170px;    
+    justify-content: space-between;
+    gap: 32px;
+    height: 540px;
     text-align: left;
 }
+
+.presentation-1 .left-text,
+.presentation-1 .right-img {
+    width: 50%;
+    height: 50%;
+    max-width: 600px;
+}
+
+.presentation-1 .left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.presentation-1 .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 1000;
+}
+
+.presentation-1 .description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.presentation-1 .button button {
+    background-color: #3882F6;
+    font-size: 1.15rem;
+    color: #F9FAF8;
+    font-weight: 900;
+    border: none;
+    border-radius: 12px;
+    width: 150px;
+    height: 40px;
+    
+}
+
+.presentation-1 .right-img {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+/*Section-2*/
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+    height: 500px;
+    background-color: #F9FAF8;
+}
+
+.section-2 .title {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+}
+
+.section-2 .card-collection {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+
+}
+
+.section-2 .card-collection .card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 200px;
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+}
+.section-2 .card-collection .card .image{
+    margin: 0;
+    height: 12rem;
+    max-width: 12rem;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882F6;
+    border-radius: 20px;
+    
+}
+
