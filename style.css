@@ -22,7 +22,9 @@ body {
 
 /*********!Container*********/
 
-.container {}
+.container {
+
+}
 
 /*********!SECTION-1*********/
 
@@ -93,7 +95,7 @@ a {
     color: #E5E7EB;
 }
 
-.presentation-1 .button button {
+.button button {
     background-color: #3882F6;
     font-size: 1.15rem;
     color: #F9FAF8;
@@ -181,4 +183,41 @@ a {
     font-weight: 900;
     font-size: 26px;
     padding-right: 48px;
+}
+/*********!SECTION-4*********/
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #ffffff;
+}
+.section-4 .call-to-action{
+     width: 100%;
+     height: 50%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #3882F6;
+     border-radius: 20px;
+}
+.section-4 .left-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+.section-4 .left-text .heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+.section-4 .left-text .description{
+    font-style: italic;
+    font-weight: 300;
+    padding-top: 4px;
+}
+.section-4 .button button{
+    font-size: 1.2rem;
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 50px;
+    width: 160px;
 }
