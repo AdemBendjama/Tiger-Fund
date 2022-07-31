@@ -273,7 +273,7 @@ a {
 }
 .section-5 .description{
     display: flex;
-    gap: 48px;
+    gap: 16px;
 }
 
 .section-5 .creator-1 {
