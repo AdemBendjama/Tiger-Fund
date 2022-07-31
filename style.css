@@ -22,9 +22,7 @@ body {
 
 /*********!Container*********/
 
-.container {
-
-}
+.container {}
 
 /*********!SECTION-1*********/
 
@@ -184,6 +182,7 @@ a {
     font-size: 26px;
     padding-right: 48px;
 }
+
 /*********!SECTION-4*********/
 .section-4 {
     display: flex;
@@ -192,32 +191,50 @@ a {
     height: 400px;
     background-color: #ffffff;
 }
-.section-4 .call-to-action{
-     width: 100%;
-     height: 50%;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     background-color: #3882F6;
-     border-radius: 20px;
+
+.section-4 .call-to-action {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 20px;
 }
+
 .section-4 .left-text {
     color: #F9FAF8;
     font-size: 18px;
 }
-.section-4 .left-text .heading{
+
+.section-4 .left-text .heading {
     font-size: 30px;
     font-weight: 700;
 }
-.section-4 .left-text .description{
+
+.section-4 .left-text .description {
     font-style: italic;
     font-weight: 300;
     padding-top: 4px;
 }
-.section-4 .button button{
+
+.section-4 .button button {
     font-size: 1.2rem;
     border: 3px solid white;
     border-radius: 10px;
     height: 50px;
     width: 160px;
 }
+
+/*********!SECTION-5*********/
+.section-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.section-5 .copyright {}
