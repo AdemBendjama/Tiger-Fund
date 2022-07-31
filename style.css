@@ -20,9 +20,6 @@ body {
     padding-right: 15%;
 }
 
-/*********!Container*********/
-
-.container {}
 
 /*********!SECTION-1*********/
 
@@ -263,7 +260,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 12px;
-    height: 130px;
+    height: 90px;
     background-color: #404546;
 
 }
@@ -274,9 +271,13 @@ a {
     align-items: baseline;
 
 }
+.section-5 .description{
+    display: flex;
+    gap: 48px;
+}
 
-.section-5 .creator-1 a {
-    font-size: 1.125rem;
+.section-5 .creator-1 {
+    font-size: 1rem;
     color: #F9FAF8;
 }
 .section-5 .copyright {
