@@ -186,24 +186,28 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 24px;
+    gap: 32px;
     height: 400px;
     background-color: #BEC3C5;
 }
 
 .section-3 .quote {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: #404546;
+    
 }
+
 
 .section-3 .quote-author {
     align-self: flex-end;
     color: #404546;
     font-weight: 900;
-    font-size: 22px;
-    padding-right: 48px;
+    font-size: 1.5rem;
 }
 
 /*********!SECTION-4*********/
@@ -255,7 +259,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    height: 120px;
+    height: 100px;
     background-color: #404546;
     
 }
