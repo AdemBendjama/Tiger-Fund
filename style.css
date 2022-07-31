@@ -262,17 +262,28 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    height: 100px;
+    gap: 12px;
+    height: 130px;
     background-color: #404546;
 
 }
+.section-5 .footer {
+    display: flex;
+    justify-content: space-between;
+    gap:16px ;
+    align-items: baseline;
 
-.section-5 .copyright {
-    color: #F9FAF8;
-    font-size: 1.125rem;
 }
 
-.section-5 .logo-creator {
+.section-5 .creator-1 a {
+    font-size: 1.125rem;
+    color: #F9FAF8;
+}
+.section-5 .copyright {
+    color: #D4D6D8;
+    font-size: 0.6rem;
+}
+
+.section-5 .creator-2 {
     font-size: 0.6rem;
 }
