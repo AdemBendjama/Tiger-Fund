@@ -27,7 +27,7 @@ body {
 /*********!SECTION-1*********/
 
 .section-1 {
-    height: 500px;
+    height: 540px;
     background-color: #404546;
     font-size: 18px;
 }
@@ -38,14 +38,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 0 16px 0;
+    padding: 16px 0 0 0;
 }
 
 .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
 }
+.header-logo .tiger-logo img {
+    height: 4rem;
+}
+
 
 .header-links {
     display: flex;
@@ -90,7 +97,13 @@ a {
 
 .presentation-1 .description {
     font-size: 18px;
-    color: #A3AAAE;
+    color: #D4D6D8;
+}
+.presentation-1 .source{
+    font-size: 12px;
+    align-self: flex-end;
+    color: #D4D6D8;
+    padding-right: 20px;
 }
 
 .button button {
@@ -189,7 +202,7 @@ a {
     align-self: flex-end;
     color: #404546;
     font-weight: 900;
-    font-size: 26px;
+    font-size: 22px;
     padding-right: 48px;
 }
 
@@ -238,12 +251,18 @@ a {
 /*********!SECTION-5*********/
 .section-5 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    gap: 16px;
+    height: 120px;
     background-color: #404546;
+    
+}
+.section-5 .copyright {
     color: #F9FAF8;
     font-size: 18px;
 }
-
-.section-5 .copyright {}
+.section-5 .logo-creator {
+    font-size: 10px;
+}
