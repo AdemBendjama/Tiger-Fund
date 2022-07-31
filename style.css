@@ -28,7 +28,7 @@ body {
 
 .section-1 {
     height: 500px;
-    background-color: #1f2937;
+    background-color: #404546;
     font-size: 18px;
 }
 
@@ -54,7 +54,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #A3AAAE;
 }
 
 /*********!PRESENTATION 1*********/
@@ -90,16 +90,16 @@ a {
 
 .presentation-1 .description {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #A3AAAE;
 }
 
 .button button {
-    background-color: #3882F6;
+    background-color: #D99036;
     font-size: 1.15rem;
     color: #F9FAF8;
     font-weight: 700;
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
     width: 150px;
     height: 40px;
 
@@ -114,7 +114,9 @@ a {
 .presentation-1 .right-img img{
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border: 2px solid #BEC3C5 ;
+    border-radius: 15px;
+
 }
 
 /*********!SECTION-2*********/
@@ -131,7 +133,7 @@ a {
     align-self: center;
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
+    color: #404546;
 }
 
 .section-2 .card-collection {
@@ -147,7 +149,7 @@ a {
     gap: 16px;
     max-width: 200px;
     font-size: 18px;
-    color: #1f2937;
+    color: #404546;
     text-align: center;
 }
 
@@ -155,11 +157,8 @@ a {
     margin: 0;
     height: 12rem;
     max-width: 12rem;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #3882F6;
+    border: 5px solid #D99036 ;
     border-radius: 20px;
-    box-shadow: 3px 3px 10px #3882F6;
 
 }
 .section-2 .card-collection .card .image img{
@@ -176,19 +175,19 @@ a {
     justify-content: center;
     gap: 24px;
     height: 400px;
-    background-color: #E5E7EB;
+    background-color: #BEC3C5;
 }
 
 .section-3 .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1f2937;
+    color: #404546;
 }
 
 .section-3 .quote-author {
     align-self: flex-end;
-    color: #1f2937;
+    color: #404546;
     font-weight: 900;
     font-size: 26px;
     padding-right: 48px;
@@ -200,16 +199,15 @@ a {
     justify-content: center;
     align-items: center;
     height: 400px;
-    background-color: #ffffff;
 }
 
 .section-4 .call-to-action {
     width: 100%;
-    height: 50%;
+    height: 40%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #3882F6;
+    background-color: #D99036;
     border-radius: 20px;
 }
 
@@ -243,7 +241,7 @@ a {
     justify-content: center;
     align-items: center;
     height: 100px;
-    background-color: #1f2937;
+    background-color: #404546;
     color: #F9FAF8;
     font-size: 18px;
 }
