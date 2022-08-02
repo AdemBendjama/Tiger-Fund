@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 /*********!HTML*********/
 
 html,
@@ -168,8 +178,8 @@ a {
 
 .section-2 .card-collection .card .image {
     margin: 0;
-    height: 12rem;
-    max-width: 12rem;
+    max-height: 100%;
+    max-width: 100%;
     border: 5px solid #D99036;
     border-radius: 20px;
 
@@ -264,14 +274,16 @@ a {
     background-color: #404546;
 
 }
+
 .section-5 .footer {
     display: flex;
     justify-content: space-between;
-    gap:16px ;
+    gap: 16px;
     align-items: baseline;
 
 }
-.section-5 .description{
+
+.section-5 .description {
     display: flex;
     gap: 16px;
 }
@@ -280,6 +292,7 @@ a {
     font-size: 1rem;
     color: #F9FAF8;
 }
+
 .section-5 .copyright {
     color: #D4D6D8;
     font-size: 0.6rem;
